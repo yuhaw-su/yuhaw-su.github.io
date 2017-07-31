@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Hi, I'm Richard.</title>
- <link href="http://yuhaw-su.github.io//atom.xml" rel="self"/>
- <link href="http://yuhaw-su.github.io//"/>
- <updated>2017-07-31T04:10:13-05:00</updated>
- <id>http://yuhaw-su.github.io/</id>
+ <link href="https://yuhaw-su.github.io//atom.xml" rel="self"/>
+ <link href="https://yuhaw-su.github.io//"/>
+ <updated>2017-07-31T04:12:27-05:00</updated>
+ <id>https://yuhaw-su.github.io/</id>
  <author>
    <name>Yuhaw Richard Su</name>
    <email>yuhawsu@gmail.com</email>
@@ -14,90 +14,90 @@
  
  <entry>
    <title>Education</title>
-   <link href="http://yuhaw-su.github.io//development/2017/12/31/education.html"/>
+   <link href="https://yuhaw-su.github.io//development/2017/12/31/education.html"/>
    <updated>2017-12-30T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2017/12/31/education</id>
+   <id>https://yuhaw-su.github.io//development/2017/12/31/education</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>University of Iowa</title>
-   <link href="http://yuhaw-su.github.io//development/2017/12/30/university-of-iowa.html"/>
+   <link href="https://yuhaw-su.github.io//development/2017/12/30/university-of-iowa.html"/>
    <updated>2017-12-29T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2017/12/30/university-of-iowa</id>
+   <id>https://yuhaw-su.github.io//development/2017/12/30/university-of-iowa</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Work Experience</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/31/work-experience.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/31/work-experience.html"/>
    <updated>2016-12-30T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/31/work-experience</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/31/work-experience</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Engineering Resident - Google</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/30/google-eng-res.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/30/google-eng-res.html"/>
    <updated>2016-12-29T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/30/google-eng-res</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/30/google-eng-res</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Software Engineering Intern - HealthTech Solutions</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html"/>
    <updated>2016-12-28T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Software Developer Intern - Epic Systems</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/28/epic.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/28/epic.html"/>
    <updated>2016-12-27T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/28/epic</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/28/epic</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Teaching Assistant, Peer Advisor - UI College of Engineering</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html"/>
    <updated>2016-12-26T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/27/college-of-eng</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/27/college-of-eng</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Research Assistant - Iowa Institute for Biomedical Imaging</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/26/research-assistant.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/26/research-assistant.html"/>
    <updated>2016-12-25T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/26/research-assistant</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/26/research-assistant</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>JavaScript Engineer Intern - MetaCommunications</title>
-   <link href="http://yuhaw-su.github.io//development/2016/12/25/metacommunications.html"/>
+   <link href="https://yuhaw-su.github.io//development/2016/12/25/metacommunications.html"/>
    <updated>2016-12-24T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2016/12/25/metacommunications</id>
+   <id>https://yuhaw-su.github.io//development/2016/12/25/metacommunications</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Projects</title>
-   <link href="http://yuhaw-su.github.io//development/2015/12/31/projects.html"/>
+   <link href="https://yuhaw-su.github.io//development/2015/12/31/projects.html"/>
    <updated>2015-12-30T18:00:00-06:00</updated>
-   <id>http://yuhaw-su.github.io//development/2015/12/31/projects</id>
+   <id>https://yuhaw-su.github.io//development/2015/12/31/projects</id>
    <content type="html">
 </content>
  </entry>
