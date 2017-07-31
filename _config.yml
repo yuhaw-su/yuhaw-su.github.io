@@ -40,7 +40,7 @@ baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     date
-paginate:       10
+paginate:       50
 paginate_path: /page:num
 timezone:      null
 

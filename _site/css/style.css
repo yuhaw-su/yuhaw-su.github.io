@@ -5877,7 +5877,8 @@ button.btn, input.btn {
 .main {
   background-color: white;
   border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea; }
+  border-right: solid 1px #cedfea;
+  transition: background .2s ease; }
   .main.container {
     padding: 0; }
 
@@ -5983,7 +5984,7 @@ button.btn, input.btn {
   #portfolio .container {
     margin-top: 2em; } }
 #portfolio .container .break {
-  margin: 8em 0; }
+  margin: 7em 0; }
   @media only screen and (max-width: 768px) {
     #portfolio .container .break {
       margin: 2em 0; } }
@@ -6015,7 +6016,7 @@ button.btn, input.btn {
       width: 60%; } }
 
 .content-wrap {
-  margin-bottom: 8em; }
+  margin-bottom: 5em; }
   @media only screen and (max-width: 768px) {
     .content-wrap {
       margin-bottom: 2em; } }
@@ -6029,20 +6030,22 @@ button.btn, input.btn {
     .content-wrap img.img-responsive {
       display: none; } }
   .content-wrap .content {
-    margin-top: 5em;
     margin-left: 5em; }
     @media only screen and (max-width: 768px) {
       .content-wrap .content {
         margin-left: 0; } }
     .content-wrap .content h3.title {
+      position: relative; }
+    .content-wrap .content h5.subtitle {
       position: relative;
-      margin-bottom: 1.5em; }
-      .content-wrap .content h3.title:after {
+      margin-bottom: 2em;
+      color: #888888; }
+      .content-wrap .content h5.subtitle:after {
         content: '';
         position: absolute;
-        top: 1.5em;
+        top: 1.75em;
         left: 0;
-        width: 3em;
+        width: 5em;
         height: 3px;
         background-color: #ECEFF1; }
     .content-wrap .content .excerpt {
@@ -6056,13 +6059,16 @@ button.btn, input.btn {
       margin-bottom: 1em;
       margin-top: 1em; }
     .content-wrap .content .tags, .content-wrap .content .categories {
-      margin: 2em 0; }
+      margin: 1.5em 0; }
       .content-wrap .content .tags span, .content-wrap .content .categories span {
-        color: #9eb1bd;
+        color: #7e919d;
         background-color: #ECEFF1;
         padding: 0.5em 1.5em;
         display: inline-block;
         margin-bottom: 0.5em; }
+      @media only screen and (min-width: 992px) and (max-width: 1195px) {
+        .content-wrap .content .tags, .content-wrap .content .categories {
+          display: none; } }
     .content-wrap .content .categories span {
       color: #b9b1ad;
       background-color: #EFEBE9; }

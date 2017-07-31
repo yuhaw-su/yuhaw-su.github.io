@@ -7,17 +7,12 @@
         <div class="row">
           <div class="col-md-12">
 
-            {% if site.data.posts.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.data.posts.section_title }}</h2>
-            {% endif %}
-            {% if site.data.posts.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.data.posts.section_subtitle }}</p>
-            {% endif %}
-
-            <div class="break"></div>
-
             {% for post in paginator.posts %}
-              <div class="wow fadeIn">
+              <!-- <div class="wow fadeIn"> -->
+              {% if post.position == "center" %}
+                {% include content-header.html %}
+              {% endif %}
+
               {% if post.position == "left" %}
                 {% include content-left.html %}
               {% endif %}
@@ -25,7 +20,7 @@
               {% if post.position == "right" %}
                 {% include content-right.html %}
               {% endif %}
-              </div>
+              <!-- </div> -->
             {% endfor %}
 
             {% include pagination.html %}

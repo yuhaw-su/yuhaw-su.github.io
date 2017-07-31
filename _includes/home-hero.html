@@ -15,10 +15,14 @@
           <img src="/img/profile-picture.jpg" alt="?" class="profile-pic" />
 
           {% if site.data.global.description != '' %}
-          <p class="text-center">{{site.data.global.description}} {% include contact.html %}</p>
+          <p class="text-center">{{site.data.global.description}}</p>
           {% endif %}
 
-          {% include contact-modal.html %}
+          <!-- {% if site.data.global.description != '' %}
+          <p class="text-center">{{site.data.global.description}} {% include contact.html %}</p>
+          {% endif %} -->
+
+          <!-- {% include contact-modal.html %} -->
 
           <div class="hero-buttons">
 

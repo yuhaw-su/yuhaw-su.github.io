@@ -1,49 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Hi. I'm Richard Su.</title>
- <link href="http://yuhaw-su.github.io/nicetomeetya//atom.xml" rel="self"/>
- <link href="http://yuhaw-su.github.io/nicetomeetya//"/>
- <updated>2017-07-30T20:33:16-05:00</updated>
- <id>http://yuhaw-su.github.io/nicetomeetya/</id>
+ <title>Hi, I'm Richard</title>
+ <link href="http://yuhaw-su.github.io//atom.xml" rel="self"/>
+ <link href="http://yuhaw-su.github.io//"/>
+ <updated>2017-07-31T03:31:52-05:00</updated>
+ <id>http://yuhaw-su.github.io/</id>
  <author>
-   <name>Richard Su</name>
+   <name>Yuhaw Richard Su</name>
    <email>yuhawsu@gmail.com</email>
  </author>
 
  
  <entry>
-   <title>Phantom</title>
-   <link href="http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/phantom-jekyll-template.html"/>
-   <updated>2016-02-20T15:15:00-06:00</updated>
-   <id>http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/phantom-jekyll-template</id>
+   <title>Education</title>
+   <link href="http://yuhaw-su.github.io//development/2017/12/31/education.html"/>
+   <updated>2017-12-30T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2017/12/31/education</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
-   <title>Rescue Themes</title>
-   <link href="http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/rescue-themes.html"/>
-   <updated>2016-02-20T09:56:00-06:00</updated>
-   <id>http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/rescue-themes</id>
+   <title>University of Iowa</title>
+   <link href="http://yuhaw-su.github.io//development/2017/12/30/university-of-iowa.html"/>
+   <updated>2017-12-29T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2017/12/30/university-of-iowa</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
-   <title>Weathercast</title>
-   <link href="http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/weathercast.html"/>
-   <updated>2016-02-20T09:56:00-06:00</updated>
-   <id>http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/weathercast</id>
+   <title>Work Experience</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/31/work-experience.html"/>
+   <updated>2016-12-30T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/31/work-experience</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
-   <title>Bloc Jams Angular</title>
-   <link href="http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/bloc-jams-angular.html"/>
-   <updated>2016-02-20T08:15:00-06:00</updated>
-   <id>http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/bloc-jams-angular</id>
+   <title>Engineering Resident - Google</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/30/google-eng-res.html"/>
+   <updated>2016-12-29T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/30/google-eng-res</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Software Engineering Intern - HealthTech Solutions</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html"/>
+   <updated>2016-12-28T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Software Developer Intern - Epic Systems</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/28/epic.html"/>
+   <updated>2016-12-27T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/28/epic</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Teaching Assistant, Peer Advisor - UI College of Engineering</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html"/>
+   <updated>2016-12-26T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/27/college-of-eng</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Research Assistant - Iowa Institute for Biomedical Imaging</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/26/research-assistant.html"/>
+   <updated>2016-12-25T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/26/research-assistant</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JavaScript Engineer Intern - MetaCommunications</title>
+   <link href="http://yuhaw-su.github.io//development/2016/12/25/metacommunications.html"/>
+   <updated>2016-12-24T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2016/12/25/metacommunications</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Projects</title>
+   <link href="http://yuhaw-su.github.io//development/2015/12/31/projects.html"/>
+   <updated>2015-12-30T18:00:00-06:00</updated>
+   <id>http://yuhaw-su.github.io//development/2015/12/31/projects</id>
    <content type="html">
 </content>
  </entry>

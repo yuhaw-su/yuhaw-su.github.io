@@ -90,6 +90,7 @@ button.btn, input.btn {
   &.container {
     padding: 0;
   }
+  transition: background .2s ease;
 }
 
 .section-jump {
@@ -215,7 +216,7 @@ button.btn, input.btn {
     margin-top: 2em;
   }
   .break {
-    margin: 8em 0;
+    margin: 7em 0;
     @include bp-xsmall {
       margin: 2em 0;
     }
@@ -252,7 +253,7 @@ button.btn, input.btn {
 }
 
 .content-wrap {
-  margin-bottom: 8em;
+  margin-bottom: 5em;
   @include bp-xsmall {
     margin-bottom: 2em;
   }
@@ -268,20 +269,24 @@ button.btn, input.btn {
     }
   }
   .content {
-    margin-top: 5em;
+    // margin-top: 2em;
     margin-left: 5em;
     @include bp-xsmall {
       margin-left: 0;
     }
     h3.title {
       position: relative;
-      margin-bottom: 1.5em;
+    }
+    h5.subtitle {
+      position: relative;
+      margin-bottom: 2em;
+      color: #888888;
       &:after {
         content: '';
         position: absolute;
-        top: 1.5em;
+        top: 1.75em;
         left: 0;
-        width: 3em;
+        width: 5em;
         height: 3px;
         background-color: #ECEFF1;
       }
@@ -299,13 +304,16 @@ button.btn, input.btn {
       margin-top: 1em;
     }
     .tags, .categories {
-      margin: 2em 0;
+      margin: 1.5em 0;
       span {
-        color: #9eb1bd;
+        color: #7e919d;
         background-color: #ECEFF1;
         padding: 0.5em 1.5em;
         display: inline-block;
         margin-bottom: 0.5em;
+      }
+      @include bp-medium {
+        display: none;
       }
     }
     .categories span {

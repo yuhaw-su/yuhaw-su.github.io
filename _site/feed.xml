@@ -1,71 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi. I'm Richard Su.</title>
-    <description>Originally from Burlington, Iowa, I am an Engineering Resident with Google in the Bay area.</description>
-    <link>http://yuhaw-su.github.io/nicetomeetya//</link>
-    <atom:link href="http://yuhaw-su.github.io/nicetomeetya//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Jul 2017 20:33:16 -0500</pubDate>
-    <lastBuildDate>Sun, 30 Jul 2017 20:33:16 -0500</lastBuildDate>
+    <title>Hi, I'm Richard</title>
+    <description>Developer. Musician. Fried Chicken Enthusiast.</description>
+    <link>http://yuhaw-su.github.io//</link>
+    <atom:link href="http://yuhaw-su.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 31 Jul 2017 03:31:52 -0500</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2017 03:31:52 -0500</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
-        <title>Phantom</title>
+        <title>Education</title>
         <description>
 </description>
-        <pubDate>Sat, 20 Feb 2016 15:15:00 -0600</pubDate>
-        <link>http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/phantom-jekyll-template.html</link>
-        <guid isPermaLink="true">http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/phantom-jekyll-template.html</guid>
-        
-        <category>Jekyll</category>
-        
-        <category>Sass</category>
-        
-        <category>Bootstrap</category>
+        <pubDate>Sat, 30 Dec 2017 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2017/12/31/education.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2017/12/31/education.html</guid>
         
         
         <category>development</category>
         
-        <category>design</category>
-        
       </item>
     
       <item>
-        <title>Rescue Themes</title>
+        <title>University of Iowa</title>
         <description>
 </description>
-        <pubDate>Sat, 20 Feb 2016 09:56:00 -0600</pubDate>
-        <link>http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/rescue-themes.html</link>
-        <guid isPermaLink="true">http://yuhaw-su.github.io/nicetomeetya//development/design/2016/02/20/rescue-themes.html</guid>
+        <pubDate>Fri, 29 Dec 2017 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2017/12/30/university-of-iowa.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2017/12/30/university-of-iowa.html</guid>
         
-        <category>WordPress</category>
+        <category>Founder - UI Hackers</category>
         
-        <category>PHP</category>
+        <category>Analyst - UI Dance Marathon</category>
         
-        <category>Sass</category>
+        <category>VP - Ski Club</category>
+        
+        <category>ACM</category>
+        
+        <category>UI Symphony Orchestra</category>
+        
+        <category>Summer abroad in San Sebastián</category>
         
         
         <category>development</category>
         
-        <category>design</category>
+      </item>
+    
+      <item>
+        <title>Work Experience</title>
+        <description>
+</description>
+        <pubDate>Fri, 30 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/31/work-experience.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/31/work-experience.html</guid>
+        
+        
+        <category>development</category>
         
       </item>
     
       <item>
-        <title>Weathercast</title>
+        <title>Engineering Resident - Google</title>
         <description>
 </description>
-        <pubDate>Sat, 20 Feb 2016 09:56:00 -0600</pubDate>
-        <link>http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/weathercast.html</link>
-        <guid isPermaLink="true">http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/weathercast.html</guid>
+        <pubDate>Thu, 29 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/30/google-eng-res.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/30/google-eng-res.html</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Software Engineering Intern - HealthTech Solutions</title>
+        <description>
+</description>
+        <pubDate>Wed, 28 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html</guid>
+        
+        <category>React</category>
+        
+        <category>Redux</category>
+        
+        <category>Ionic</category>
+        
+        <category>HTML5</category>
+        
+        <category>CSS</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Software Developer Intern - Epic Systems</title>
+        <description>
+</description>
+        <pubDate>Tue, 27 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/28/epic.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/28/epic.html</guid>
+        
+        <category>C#</category>
+        
+        <category>Python</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Teaching Assistant, Peer Advisor - UI College of Engineering</title>
+        <description>
+</description>
+        <pubDate>Mon, 26 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html</guid>
+        
+        <category>C++</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Research Assistant - Iowa Institute for Biomedical Imaging</title>
+        <description>
+</description>
+        <pubDate>Sun, 25 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/26/research-assistant.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/26/research-assistant.html</guid>
+        
+        <category>C++</category>
+        
+        <category>ITK</category>
+        
+        <category>armadillo</category>
+        
+        <category>Matlab</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>JavaScript Engineer Intern - MetaCommunications</title>
+        <description>
+</description>
+        <pubDate>Sat, 24 Dec 2016 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2016/12/25/metacommunications.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2016/12/25/metacommunications.html</guid>
         
         <category>JavaScript</category>
         
-        <category>AngularJS</category>
+        <category>Knockout.js</category>
         
-        <category>API</category>
-        
-        <category>Sass</category>
+        <category>Jasmine</category>
         
         
         <category>development</category>
@@ -73,20 +169,12 @@
       </item>
     
       <item>
-        <title>Bloc Jams Angular</title>
+        <title>Projects</title>
         <description>
 </description>
-        <pubDate>Sat, 20 Feb 2016 08:15:00 -0600</pubDate>
-        <link>http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/bloc-jams-angular.html</link>
-        <guid isPermaLink="true">http://yuhaw-su.github.io/nicetomeetya//development/2016/02/20/bloc-jams-angular.html</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>AngularJS</category>
-        
-        <category>Sass</category>
-        
-        <category>Grunt</category>
+        <pubDate>Wed, 30 Dec 2015 18:00:00 -0600</pubDate>
+        <link>http://yuhaw-su.github.io//development/2015/12/31/projects.html</link>
+        <guid isPermaLink="true">http://yuhaw-su.github.io//development/2015/12/31/projects.html</guid>
         
         
         <category>development</category>

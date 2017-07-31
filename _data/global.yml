@@ -1,8 +1,9 @@
 # Site Settings
-title: "Hi. I'm Richard Su."
-description: "Originally from Burlington, Iowa, I am an Engineering Resident with Google in the Bay area."
-url: 'http://yuhaw-su.github.io/nicetomeetya/' # the base hostname & protocol for your site
-nav: "true"
+head: 'Yuhaw Richard Su - About Me'
+title: "Hi, I'm Richard"
+description: "Developer. Musician. Fried Chicken Enthusiast."
+url: 'http://yuhaw-su.github.io/' # the base hostname & protocol for your site
+nav: "false"
 footer_text: '© 2016 Yuhaw Richard Su'
 facebook: 'richard.su.5815'
 github: 'yuhaw-su'
@@ -10,6 +11,6 @@ medium: 'yuhawsu'
 linkedin: 'yuhawrichardsu'
 
 # Admin Settings
-admin_name: 'Richard Su'
+admin_name: 'Yuhaw Richard Su'
 admin_email: 'yuhawsu@gmail.com'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
