@@ -5878,7 +5878,7 @@ button.btn, input.btn {
   background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
-  transition: background .2s ease; }
+  transition: background 1s ease; }
   .main.container {
     padding: 0; }
 

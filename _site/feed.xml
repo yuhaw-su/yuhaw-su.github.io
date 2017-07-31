@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi, I'm Richard</title>
+    <title>Hi, I'm Richard.</title>
     <description>Developer. Musician. Fried Chicken Enthusiast.</description>
     <link>http://yuhaw-su.github.io//</link>
     <atom:link href="http://yuhaw-su.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jul 2017 03:31:52 -0500</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 03:31:52 -0500</lastBuildDate>
+    <pubDate>Mon, 31 Jul 2017 04:10:13 -0500</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2017 04:10:13 -0500</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>

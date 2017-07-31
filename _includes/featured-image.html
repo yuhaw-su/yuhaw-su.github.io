@@ -1,5 +1,5 @@
   {% if post.featured_image %}
-    {% if post.position == "left" %}<div class="wow fadeInRight">{% else %}<div class="wow fadeInLeft">{% endif %}
+    <div class="wow {% if post.position == 'right' ? %}fadeInLeft{% else %}fadeInRight{% endif %}" data-wow-offset="150">
       <img class="img-responsive" src="{{ post.featured_image }}" title="{{ post.title }}">
     </div>
   {% endif %}

@@ -1,7 +1,9 @@
-{% if post.section_title != '' %}
-  <h2 class="section-title text-center">{{ post.section_title }}</h2>
-{% endif %}
-{% if post.section_subtitle != '' %}
-  <p class="section-subtitle text-center">{{ post.section_subtitle }}</p>
-{% endif %}
-<div class="break"></div>
+<div class="section" data-background-color="{{ post.background-color }}">
+  {% if post.section_title != '' %}
+    <h2 class="section-title text-center">{{ post.section_title }}</h2>
+  {% endif %}
+  {% if post.section_subtitle != '' %}
+    <p class="section-subtitle text-center">{{ post.section_subtitle }}</p>
+  {% endif %}
+  <div class="break"></div>
+</div>

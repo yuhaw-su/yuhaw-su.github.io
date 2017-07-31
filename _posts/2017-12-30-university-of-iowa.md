@@ -9,4 +9,5 @@ tags: [Founder - UI Hackers, Analyst - UI Dance Marathon, VP - Ski Club, ACM, UI
 featured_image: 'img/posts/university-of-iowa.jpg'
 button_text: ''
 lead_text: 'BSE in Electrical Engineering, BA in Computer Science, BA in Music, Mathematics minor, and University Honors'
+background-color: '#FFDF00'
 ---

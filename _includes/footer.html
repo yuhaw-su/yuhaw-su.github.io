@@ -22,8 +22,18 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="{{ site.data.global.url }}/js/wow.min.js"></script>
-    <script src="/js/in-view.min.js"></script>
+    <script src="{{ site.data.global.url }}/js/in-view.min.js"></script>
     <script src="{{ site.data.global.url }}/js/app.js"></script>
+    <script>
+      var $target = $('.main');
+      inView.offset(150);
+      inView('.section').on('enter', function(el) {
+        var color = $(el).attr('data-background-color');
+        if (color) {
+          $target.css('background-color', color);
+        }
+      });
+    </script>
 
 
     <script>

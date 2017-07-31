@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Hi, I'm Richard</title>
+ <title>Hi, I'm Richard.</title>
  <link href="http://yuhaw-su.github.io//atom.xml" rel="self"/>
  <link href="http://yuhaw-su.github.io//"/>
- <updated>2017-07-31T03:31:52-05:00</updated>
+ <updated>2017-07-31T04:10:13-05:00</updated>
  <id>http://yuhaw-su.github.io/</id>
  <author>
    <name>Yuhaw Richard Su</name>

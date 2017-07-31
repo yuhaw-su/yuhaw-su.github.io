@@ -8,5 +8,5 @@ categories: development
 tags: [React, Redux, Ionic, HTML5, CSS]
 featured_image: 'img/posts/healthtech-solutions.png'
 button_text: ''
-lead_text: 'Summer intern responsible for the creation of an admin portal and all Android releases'
+lead_text: 'Developed an admin portal for the product using material design and managed all Android releases'
 ---

@@ -8,5 +8,5 @@ categories: development
 tags: [C++]
 featured_image: 'img/posts/college-of-engineering.png'
 button_text: ''
-lead_text: 'Helped teach second-year engineering students intermediate programming concepts, advised engineering students with academic and professional pursuits'
+lead_text: 'Taught engineering students intermediate programming concepts, advised engineering students with academic and professional pursuits'
 ---

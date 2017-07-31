@@ -1,6 +1,6 @@
 # Site Settings
 head: 'Yuhaw Richard Su - About Me'
-title: "Hi, I'm Richard"
+title: "Hi, I'm Richard."
 description: "Developer. Musician. Fried Chicken Enthusiast."
 url: 'http://yuhaw-su.github.io/' # the base hostname & protocol for your site
 nav: "false"
