@@ -35,8 +35,8 @@ excerpt_separator: "\n\n"
 # Serving
 detach:  false
 port:    4000
-host:    127.0.0.1
-baseurl: "/phantom" # does not include hostname
+host:    localhost
+baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     date
