@@ -1,5 +1,11 @@
   {% if post.featured_image %}
-    <div class="wow {% if post.position == 'right' ? %}fadeInLeft{% else %}fadeInRight{% endif %}" data-wow-offset="150">
-      <img class="img-responsive" src="{{ post.featured_image }}" title="{{ post.title }}">
+    <div class="{% if post.position == "right" %}left{% else %}right{% endif %}" data-wow-offset="150">
+      {% if post.link != '' %}
+        <a href="{{ post.link }}" target="_blank">
+      {% endif %}
+      <img class="img-responsive wow fadeIn" src="{{ post.featured_image }}" />
+      {% if post.link != '' %}
+        </a>
+      {% endif %}
     </div>
   {% endif %}

@@ -155,59 +155,6 @@ button.btn, input.btn {
 }
 
 /*--------------------------------------------------------------
-	2.1 Contact
---------------------------------------------------------------*/
-.modal-header {
-  border-bottom: none;
-  button {
-    margin-bottom: 0;
-  }
-}
-
-.modal-content {
-  border-radius: 2px;
-}
-
-.modal-body {
-  margin: 0 20px;
-  label {
-    font-weight: 300;
-    font-size: 22px;
-    margin-bottom: 0.5em;
-  }
-  textarea, input {
-    border-color: #e6e6e6;
-    border-radius: 2px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin-bottom: 1em;
-  }
-  .form-group {
-    margin: 0;
-  }
-  .form-control {
-    padding: 25px;
-    font-size: 16px;
-  }
-  input[type="submit"]{
-    float: right;
-    margin-right: 0;
-  }
-  ::-webkit-input-placeholder {
-    color: #D6D6D6;
-  }
-  :-moz-placeholder {
-    color: #D6D6D6;
-  }
-  ::-moz-placeholder {
-    color: #D6D6D6;
-  }
-  :-ms-input-placeholder {
-    color: #D6D6D6;
-  }
-}
-
-/*--------------------------------------------------------------
 	3.0 Posts
 --------------------------------------------------------------*/
 #portfolio .container {
@@ -218,7 +165,10 @@ button.btn, input.btn {
   .break {
     margin: 7em 0;
     @include bp-xsmall {
-      margin: 2em 0;
+      margin: 4em 0;
+    }
+    @include bp-small {
+      margin: 4em 0;
     }
   }
 }
@@ -261,19 +211,41 @@ button.btn, input.btn {
     margin-bottom: 2em;
   }
   img.img-responsive {
+    // margin-top: 1em;
     @include bp-xsmall {
       display: none;
     }
     @include bp-small {
       display: none;
     }
+    -webkit-transition: all 0.25s ease-out; /* Safari */
+    transition: all 0.25s ease-out;
   }
-  .content {
-    // margin-top: 2em;
+  .left {
     margin-left: 5em;
     @include bp-xsmall {
       margin-left: 0;
     }
+    @include bp-small {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+  .right {
+    margin-right: 5em;
+    @include bp-xsmall {
+      margin-right: 0;
+    }
+    @include bp-small {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+  .centered {
+    text-align: center;
+    margin: 0 2em;
+  }
+  .content {
     h3.title {
       position: relative;
     }
@@ -292,7 +264,7 @@ button.btn, input.btn {
       }
     }
     .excerpt {
-      width: 80%;
+      width: 95%;
       @include bp-xsmall {
         width: 100%;
       }
@@ -320,8 +292,26 @@ button.btn, input.btn {
       color: #b9b1ad;
       background-color: #EFEBE9;
     }
+    .spotify-embeds {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    .spotify-embed {
+      background: #282828;
+
+      &:not(:last-of-type) {
+        margin-bottom: 5px;
+      }
+
+      iframe {
+        display: block;
+      }
+    }
   }
 }
+
+
 
 /*--------------------------------------------------------------
 	4.0 Footer
@@ -329,7 +319,7 @@ button.btn, input.btn {
 .site-footer {
   font-size: 14px;
   margin-top: 2em;
-  border-top: 1px solid #efefef;
+  border-top: 3px solid #efefef;
   padding: 1em 0;
   p {
     font-size: 12px;

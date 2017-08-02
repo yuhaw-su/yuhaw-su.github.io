@@ -5938,46 +5938,6 @@ button.btn, input.btn {
     height: 40%; }
 
 /*--------------------------------------------------------------
-	2.1 Contact
---------------------------------------------------------------*/
-.modal-header {
-  border-bottom: none; }
-  .modal-header button {
-    margin-bottom: 0; }
-
-.modal-content {
-  border-radius: 2px; }
-
-.modal-body {
-  margin: 0 20px; }
-  .modal-body label {
-    font-weight: 300;
-    font-size: 22px;
-    margin-bottom: 0.5em; }
-  .modal-body textarea, .modal-body input {
-    border-color: #e6e6e6;
-    border-radius: 2px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin-bottom: 1em; }
-  .modal-body .form-group {
-    margin: 0; }
-  .modal-body .form-control {
-    padding: 25px;
-    font-size: 16px; }
-  .modal-body input[type="submit"] {
-    float: right;
-    margin-right: 0; }
-  .modal-body ::-webkit-input-placeholder {
-    color: #D6D6D6; }
-  .modal-body :-moz-placeholder {
-    color: #D6D6D6; }
-  .modal-body ::-moz-placeholder {
-    color: #D6D6D6; }
-  .modal-body :-ms-input-placeholder {
-    color: #D6D6D6; }
-
-/*--------------------------------------------------------------
 	3.0 Posts
 --------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
@@ -5987,7 +5947,10 @@ button.btn, input.btn {
   margin: 7em 0; }
   @media only screen and (max-width: 768px) {
     #portfolio .container .break {
-      margin: 2em 0; } }
+      margin: 4em 0; } }
+  @media only screen and (min-width: 770px) and (max-width: 990px) {
+    #portfolio .container .break {
+      margin: 4em 0; } }
 
 .section-title {
   position: relative;
@@ -6023,55 +5986,85 @@ button.btn, input.btn {
   @media only screen and (min-width: 770px) and (max-width: 990px) {
     .content-wrap {
       margin-bottom: 2em; } }
-  @media only screen and (max-width: 768px) {
-    .content-wrap img.img-responsive {
-      display: none; } }
-  @media only screen and (min-width: 770px) and (max-width: 990px) {
-    .content-wrap img.img-responsive {
-      display: none; } }
-  .content-wrap .content {
+  .content-wrap img.img-responsive {
+    -webkit-transition: all 0.25s ease-out;
+    /* Safari */
+    transition: all 0.25s ease-out; }
+    @media only screen and (max-width: 768px) {
+      .content-wrap img.img-responsive {
+        display: none; } }
+    @media only screen and (min-width: 770px) and (max-width: 990px) {
+      .content-wrap img.img-responsive {
+        display: none; } }
+  .content-wrap .left {
     margin-left: 5em; }
     @media only screen and (max-width: 768px) {
-      .content-wrap .content {
+      .content-wrap .left {
         margin-left: 0; } }
-    .content-wrap .content h3.title {
-      position: relative; }
-    .content-wrap .content h5.subtitle {
-      position: relative;
-      margin-bottom: 2em;
-      color: #888888; }
-      .content-wrap .content h5.subtitle:after {
-        content: '';
-        position: absolute;
-        top: 1.75em;
-        left: 0;
-        width: 5em;
-        height: 3px;
-        background-color: #ECEFF1; }
-    .content-wrap .content .excerpt {
-      width: 80%; }
-      @media only screen and (max-width: 768px) {
-        .content-wrap .content .excerpt {
-          width: 100%; } }
-    .content-wrap .content button {
-      font-size: 16px;
-      margin-left: 0;
-      margin-bottom: 1em;
-      margin-top: 1em; }
-    .content-wrap .content .tags, .content-wrap .content .categories {
-      margin: 1.5em 0; }
-      .content-wrap .content .tags span, .content-wrap .content .categories span {
-        color: #7e919d;
-        background-color: #ECEFF1;
-        padding: 0.5em 1.5em;
-        display: inline-block;
-        margin-bottom: 0.5em; }
-      @media only screen and (min-width: 992px) and (max-width: 1195px) {
-        .content-wrap .content .tags, .content-wrap .content .categories {
-          display: none; } }
-    .content-wrap .content .categories span {
-      color: #b9b1ad;
-      background-color: #EFEBE9; }
+    @media only screen and (min-width: 770px) and (max-width: 990px) {
+      .content-wrap .left {
+        margin-left: 1em;
+        margin-right: 1em; } }
+  .content-wrap .right {
+    margin-right: 5em; }
+    @media only screen and (max-width: 768px) {
+      .content-wrap .right {
+        margin-right: 0; } }
+    @media only screen and (min-width: 770px) and (max-width: 990px) {
+      .content-wrap .right {
+        margin-left: 1em;
+        margin-right: 1em; } }
+  .content-wrap .centered {
+    text-align: center;
+    margin: 0 2em; }
+  .content-wrap .content h3.title {
+    position: relative; }
+  .content-wrap .content h5.subtitle {
+    position: relative;
+    margin-bottom: 2em;
+    color: #888888; }
+    .content-wrap .content h5.subtitle:after {
+      content: '';
+      position: absolute;
+      top: 1.75em;
+      left: 0;
+      width: 5em;
+      height: 3px;
+      background-color: #ECEFF1; }
+  .content-wrap .content .excerpt {
+    width: 95%; }
+    @media only screen and (max-width: 768px) {
+      .content-wrap .content .excerpt {
+        width: 100%; } }
+  .content-wrap .content button {
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em; }
+  .content-wrap .content .tags, .content-wrap .content .categories {
+    margin: 1.5em 0; }
+    .content-wrap .content .tags span, .content-wrap .content .categories span {
+      color: #7e919d;
+      background-color: #ECEFF1;
+      padding: 0.5em 1.5em;
+      display: inline-block;
+      margin-bottom: 0.5em; }
+    @media only screen and (min-width: 992px) and (max-width: 1195px) {
+      .content-wrap .content .tags, .content-wrap .content .categories {
+        display: none; } }
+  .content-wrap .content .categories span {
+    color: #b9b1ad;
+    background-color: #EFEBE9; }
+  .content-wrap .content .spotify-embeds {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  .content-wrap .content .spotify-embed {
+    background: #282828; }
+    .content-wrap .content .spotify-embed:not(:last-of-type) {
+      margin-bottom: 5px; }
+    .content-wrap .content .spotify-embed iframe {
+      display: block; }
 
 /*--------------------------------------------------------------
 	4.0 Footer
@@ -6079,7 +6072,7 @@ button.btn, input.btn {
 .site-footer {
   font-size: 14px;
   margin-top: 2em;
-  border-top: 1px solid #efefef;
+  border-top: 3px solid #efefef;
   padding: 1em 0; }
   .site-footer p {
     font-size: 12px;

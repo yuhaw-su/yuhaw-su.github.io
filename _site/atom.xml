@@ -4,7 +4,7 @@
  <title>Hi, I'm Richard.</title>
  <link href="https://yuhaw-su.github.io//atom.xml" rel="self"/>
  <link href="https://yuhaw-su.github.io//"/>
- <updated>2017-07-31T04:12:27-05:00</updated>
+ <updated>2017-08-02T01:50:10-05:00</updated>
  <id>https://yuhaw-su.github.io/</id>
  <author>
    <name>Yuhaw Richard Su</name>
@@ -67,19 +67,10 @@
  </entry>
  
  <entry>
-   <title>Teaching Assistant, Peer Advisor - UI College of Engineering</title>
+   <title>Research Assistant, TA, Peer Advisor - UI College of Engineering</title>
    <link href="https://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html"/>
    <updated>2016-12-26T18:00:00-06:00</updated>
    <id>https://yuhaw-su.github.io//development/2016/12/27/college-of-eng</id>
-   <content type="html">
-</content>
- </entry>
- 
- <entry>
-   <title>Research Assistant - Iowa Institute for Biomedical Imaging</title>
-   <link href="https://yuhaw-su.github.io//development/2016/12/26/research-assistant.html"/>
-   <updated>2016-12-25T18:00:00-06:00</updated>
-   <id>https://yuhaw-su.github.io//development/2016/12/26/research-assistant</id>
    <content type="html">
 </content>
  </entry>
@@ -98,6 +89,96 @@
    <link href="https://yuhaw-su.github.io//development/2015/12/31/projects.html"/>
    <updated>2015-12-30T18:00:00-06:00</updated>
    <id>https://yuhaw-su.github.io//development/2015/12/31/projects</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PySNAC - Secure Network Audio Communication</title>
+   <link href="https://yuhaw-su.github.io//development/2015/12/30/pysnac.html"/>
+   <updated>2015-12-29T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2015/12/30/pysnac</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>SafeSpace - Customizable Content Blocker</title>
+   <link href="https://yuhaw-su.github.io//development/2015/12/29/safe-space.html"/>
+   <updated>2015-12-28T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2015/12/29/safe-space</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Med Manager - Voice-controlled Medication Scheduling</title>
+   <link href="https://yuhaw-su.github.io//development/2015/12/28/med-manager.html"/>
+   <updated>2015-12-27T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2015/12/28/med-manager</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>3D Medical Image De-noiser</title>
+   <link href="https://yuhaw-su.github.io//development/2015/12/27/image-denoiser.html"/>
+   <updated>2015-12-26T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2015/12/27/image-denoiser</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Thoughts</title>
+   <link href="https://yuhaw-su.github.io//development/2014/12/31/thoughts.html"/>
+   <updated>2014-12-30T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2014/12/31/thoughts</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Medium Articles to Come</title>
+   <link href="https://yuhaw-su.github.io//development/2014/12/30/temp-article.html"/>
+   <updated>2014-12-29T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2014/12/30/temp-article</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Music</title>
+   <link href="https://yuhaw-su.github.io//development/2013/12/31/music.html"/>
+   <updated>2013-12-30T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2013/12/31/music</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Music</title>
+   <link href="https://yuhaw-su.github.io//development/2013/12/30/spotify.html"/>
+   <updated>2013-12-29T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2013/12/30/spotify</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Connect</title>
+   <link href="https://yuhaw-su.github.io//development/2012/12/31/contact.html"/>
+   <updated>2012-12-30T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2012/12/31/contact</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Let's Connect</title>
+   <link href="https://yuhaw-su.github.io//development/2012/12/30/temp-contact.html"/>
+   <updated>2012-12-29T18:00:00-06:00</updated>
+   <id>https://yuhaw-su.github.io//development/2012/12/30/temp-contact</id>
    <content type="html">
 </content>
  </entry>

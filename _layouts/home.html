@@ -9,16 +9,28 @@
 
             {% for post in paginator.posts %}
               <!-- <div class="wow fadeIn"> -->
-              {% if post.position == "center" %}
+              {% if post.type == "header" %}
                 {% include content-header.html %}
               {% endif %}
 
-              {% if post.position == "left" %}
-                {% include content-left.html %}
+              {% if post.type == "spotify" %}
+                {% include spotify-player.html %}
               {% endif %}
 
-              {% if post.position == "right" %}
-                {% include content-right.html %}
+              {% if post.type == "connect" %}
+                {% include connect.html %}
+              {% endif %}
+
+              {% if post.type == "temp" %}
+                {% include content-placeholder.html %}
+              {% endif %}
+
+              {% if post.type == "content" %}
+                {% if post.position == "left" %}
+                  {% include content-left.html %}
+                {% else %}
+                  {% include content-right.html %}
+                {% endif %}
               {% endif %}
               <!-- </div> -->
             {% endfor %}

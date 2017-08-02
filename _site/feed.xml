@@ -5,8 +5,8 @@
     <description>Developer. Musician. Fried Chicken Enthusiast.</description>
     <link>https://yuhaw-su.github.io//</link>
     <atom:link href="https://yuhaw-su.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jul 2017 04:12:27 -0500</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 04:12:27 -0500</lastBuildDate>
+    <pubDate>Wed, 02 Aug 2017 01:50:10 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Aug 2017 01:50:10 -0500</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -81,16 +81,6 @@
         <link>https://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html</link>
         <guid isPermaLink="true">https://yuhaw-su.github.io//development/2016/12/29/healthtech-solutions.html</guid>
         
-        <category>React</category>
-        
-        <category>Redux</category>
-        
-        <category>Ionic</category>
-        
-        <category>HTML5</category>
-        
-        <category>CSS</category>
-        
         
         <category>development</category>
         
@@ -104,45 +94,18 @@
         <link>https://yuhaw-su.github.io//development/2016/12/28/epic.html</link>
         <guid isPermaLink="true">https://yuhaw-su.github.io//development/2016/12/28/epic.html</guid>
         
-        <category>C#</category>
-        
-        <category>Python</category>
-        
         
         <category>development</category>
         
       </item>
     
       <item>
-        <title>Teaching Assistant, Peer Advisor - UI College of Engineering</title>
+        <title>Research Assistant, TA, Peer Advisor - UI College of Engineering</title>
         <description>
 </description>
         <pubDate>Mon, 26 Dec 2016 18:00:00 -0600</pubDate>
         <link>https://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html</link>
         <guid isPermaLink="true">https://yuhaw-su.github.io//development/2016/12/27/college-of-eng.html</guid>
-        
-        <category>C++</category>
-        
-        
-        <category>development</category>
-        
-      </item>
-    
-      <item>
-        <title>Research Assistant - Iowa Institute for Biomedical Imaging</title>
-        <description>
-</description>
-        <pubDate>Sun, 25 Dec 2016 18:00:00 -0600</pubDate>
-        <link>https://yuhaw-su.github.io//development/2016/12/26/research-assistant.html</link>
-        <guid isPermaLink="true">https://yuhaw-su.github.io//development/2016/12/26/research-assistant.html</guid>
-        
-        <category>C++</category>
-        
-        <category>ITK</category>
-        
-        <category>armadillo</category>
-        
-        <category>Matlab</category>
         
         
         <category>development</category>
@@ -157,12 +120,6 @@
         <link>https://yuhaw-su.github.io//development/2016/12/25/metacommunications.html</link>
         <guid isPermaLink="true">https://yuhaw-su.github.io//development/2016/12/25/metacommunications.html</guid>
         
-        <category>JavaScript</category>
-        
-        <category>Knockout.js</category>
-        
-        <category>Jasmine</category>
-        
         
         <category>development</category>
         
@@ -175,6 +132,29 @@
         <pubDate>Wed, 30 Dec 2015 18:00:00 -0600</pubDate>
         <link>https://yuhaw-su.github.io//development/2015/12/31/projects.html</link>
         <guid isPermaLink="true">https://yuhaw-su.github.io//development/2015/12/31/projects.html</guid>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>PySNAC - Secure Network Audio Communication</title>
+        <description>
+</description>
+        <pubDate>Tue, 29 Dec 2015 18:00:00 -0600</pubDate>
+        <link>https://yuhaw-su.github.io//development/2015/12/30/pysnac.html</link>
+        <guid isPermaLink="true">https://yuhaw-su.github.io//development/2015/12/30/pysnac.html</guid>
+        
+        <category>Python</category>
+        
+        <category>Opus</category>
+        
+        <category>libsodium</category>
+        
+        <category>Firebase</category>
+        
+        <category>Raspberry Pi</category>
         
         
         <category>development</category>
