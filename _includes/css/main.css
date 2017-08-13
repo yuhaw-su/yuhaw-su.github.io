@@ -487,6 +487,6 @@ footer .footer-below {
 
 .profile-image {
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 300px;
 }
