@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PierSansRegular";
+}
+
+@font-face {
+    font-family: 'PierSansRegular';
+    src: url('../fonts/PierSans-Regular.otf');
+}
