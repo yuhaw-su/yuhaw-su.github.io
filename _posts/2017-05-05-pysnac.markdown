@@ -1,0 +1,13 @@
+---
+title: PySNAC
+subtitle: Open Source
+layout: default
+modal-id: 1
+date: 2017-05-05
+img: pysnac.jpg
+thumbnail: pysnac-thumbnail.jpg
+alt: image-alt
+project-date: January 2017 - May 2017
+category: open source
+description: Designed and developed a pair of portable devices that communicate audio in real-time via Wi-Fi. Communication is initiated via authentication and secured via strong end-to-end encryption.
+---

@@ -1,226 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator>
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-08-13T01:11:36-05:00</updated>
-  <id>http://localhost:4000/</id>
-
-  
-    <title type="html">Richard Su</title>
-  
-
-  
-    <subtitle>Developer. Musician. Fried Chicken Enthusiast.</subtitle>
-  
-
-  
-
-  
-  
-    <entry>
-      <title type="html">Project 1</title>
-      <link href="http://localhost:4000/web%20development/2014/07/18/project-1/" rel="alternate" type="text/html" title="Project 1" />
-      <published>2014-07-18T00:00:00-05:00</published>
-      <updated>2014-07-18T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/18/project-1</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/18/project-1/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Richard Su</title>
+    <description>Developer. Musician. Fried Chicken Enthusiast.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 13 Aug 2017 21:35:22 -0500</pubDate>
+    <lastBuildDate>Sun, 13 Aug 2017 21:35:22 -0500</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>PySNAC</title>
+        <description>
+</description>
+        <pubDate>Fri, 05 May 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/open%20source/2017/05/05/pysnac/</link>
+        <guid isPermaLink="true">http://localhost:4000/open%20source/2017/05/05/pysnac/</guid>
         
         
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 2</title>
-      <link href="http://localhost:4000/web%20development/2014/07/17/project-2/" rel="alternate" type="text/html" title="Project 2" />
-      <published>2014-07-17T00:00:00-05:00</published>
-      <updated>2014-07-17T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/17/project-2</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/17/project-2/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+        <category>open source</category>
+        
+      </item>
+    
+      <item>
+        <title>Safespace</title>
+        <description>
+</description>
+        <pubDate>Sun, 26 Feb 2017 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/chrome%20extension/2017/02/26/safespace/</link>
+        <guid isPermaLink="true">http://localhost:4000/chrome%20extension/2017/02/26/safespace/</guid>
         
         
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 3</title>
-      <link href="http://localhost:4000/web%20development/2014/07/16/project-3/" rel="alternate" type="text/html" title="Project 3" />
-      <published>2014-07-16T00:00:00-05:00</published>
-      <updated>2014-07-16T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/16/project-3</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/16/project-3/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+        <category>chrome extension</category>
+        
+      </item>
+    
+      <item>
+        <title>The Med Manager</title>
+        <description>
+</description>
+        <pubDate>Sun, 06 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/alexa%20skill/2016/11/06/med-manager/</link>
+        <guid isPermaLink="true">http://localhost:4000/alexa%20skill/2016/11/06/med-manager/</guid>
         
         
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 4</title>
-      <link href="http://localhost:4000/web%20development/2014/07/15/project-4/" rel="alternate" type="text/html" title="Project 4" />
-      <published>2014-07-15T00:00:00-05:00</published>
-      <updated>2014-07-15T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/15/project-4</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/15/project-4/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+        <category>alexa skill</category>
+        
+      </item>
+    
+      <item>
+        <title>3D Image De-noiser</title>
+        <description>
+</description>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/c++%20executable/2016/03/01/3d-image-denoiser/</link>
+        <guid isPermaLink="true">http://localhost:4000/c++%20executable/2016/03/01/3d-image-denoiser/</guid>
         
         
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6</title>
-      <link href="http://localhost:4000/web%20development/2014/07/15/project-6/" rel="alternate" type="text/html" title="Project 6" />
-      <published>2014-07-15T00:00:00-05:00</published>
-      <updated>2014-07-15T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/15/project-6</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/15/project-6/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+        <category>c++ executable</category>
         
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 5</title>
-      <link href="http://localhost:4000/web%20development/2014/07/14/project-5/" rel="alternate" type="text/html" title="Project 5" />
-      <published>2014-07-14T00:00:00-05:00</published>
-      <updated>2014-07-14T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/14/project-5</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/14/project-5/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-</feed>
+      </item>
+    
+  </channel>
+</rss>
