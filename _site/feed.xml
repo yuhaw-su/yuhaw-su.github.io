@@ -5,15 +5,15 @@
     <description>Developer. Musician. Fried Chicken Enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Aug 2017 18:50:22 -0500</pubDate>
-    <lastBuildDate>Tue, 22 Aug 2017 18:50:22 -0500</lastBuildDate>
+    <pubDate>Sun, 28 Jan 2018 14:32:53 -0800</pubDate>
+    <lastBuildDate>Sun, 28 Jan 2018 14:32:53 -0800</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>PySNAC</title>
         <description>
 </description>
-        <pubDate>Fri, 05 May 2017 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 05 May 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/open%20source/2017/05/05/pysnac/</link>
         <guid isPermaLink="true">http://localhost:4000/open%20source/2017/05/05/pysnac/</guid>
         
@@ -26,7 +26,7 @@
         <title>Safespace</title>
         <description>
 </description>
-        <pubDate>Sun, 26 Feb 2017 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 26 Feb 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/chrome%20extension/2017/02/26/safespace/</link>
         <guid isPermaLink="true">http://localhost:4000/chrome%20extension/2017/02/26/safespace/</guid>
         
@@ -39,7 +39,7 @@
         <title>The Med Manager</title>
         <description>
 </description>
-        <pubDate>Sun, 06 Nov 2016 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 06 Nov 2016 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/alexa%20skill/2016/11/06/med-manager/</link>
         <guid isPermaLink="true">http://localhost:4000/alexa%20skill/2016/11/06/med-manager/</guid>
         
@@ -52,7 +52,7 @@
         <title>3D Image De-noiser</title>
         <description>
 </description>
-        <pubDate>Tue, 01 Mar 2016 00:00:00 -0600</pubDate>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/c++%20executable/2016/03/01/3d-image-denoiser/</link>
         <guid isPermaLink="true">http://localhost:4000/c++%20executable/2016/03/01/3d-image-denoiser/</guid>
         
