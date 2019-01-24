@@ -1,0 +1,98 @@
+html * {
+  font-family: 'Aleo', serif;
+  letter-spacing: 0.1em;
+  color: #333333;
+}
+
+div.header {
+  text-align: center;
+  padding: 70px 0px;
+}
+
+div.header a {
+  text-decoration: none;
+  font-size: 36px;
+}
+
+ul.navbar {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.navbar-item {
+  display: inline;
+}
+
+li.navbar-item a {
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+li.selected-tab a {
+  color: #888888;
+}
+
+li.navbar-item a:hover {
+  color: #888888;
+}
+
+div.main-content {
+  padding: 60px 18%;
+}
+
+@media (min-width: 700px) {
+  img.self {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-right: 3%;
+  }
+}
+
+@media (max-width: 699px) {
+  img.self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  } 
+}
+
+div.connect-row {
+  text-align: center;
+}
+
+div.connect-row a {
+  text-decoration: none;
+}
+
+div.connect-row a img {
+  display: inline-block;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: #BBBBBB;
+  color: #888888;
+  border: 0px none;
+}
+
+img.homepage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+p.coming-soon {
+  text-align: center;
+}
