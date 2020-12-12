@@ -18,6 +18,11 @@
         for (var i = 0; i < links.length; i++) {
           links[i].classList.toggle(darkModeClass);
         }
+        var buttons = document.getElementsByTagName("button")
+        // Should just be the last name button.
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].classList.toggle(darkModeClass);
+        }
       }
     </script>
   </head>
@@ -33,7 +38,7 @@
       <p>
         Hi, I'm Richard.<br/><br/>
 
-        I'm a software engineer with
+        I'm a software engineer at
         <span class="google-blue"   >G</span><!--
      --><span class="google-red"    >o</span><!--
      --><span class="google-yellow" >o</span><!--
