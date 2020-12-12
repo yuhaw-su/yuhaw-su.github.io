@@ -99,6 +99,8 @@ button {
   border: none;
   cursor: pointer;
   outline: none;
+  padding-left: 6px;
+  padding-right: 0px;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 36px;
