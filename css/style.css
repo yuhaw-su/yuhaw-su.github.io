@@ -1,13 +1,40 @@
-html * {
+body {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.05em;
   color: #333333;
+  background-color: #FFFFFF;
 
   animation: fadeIn ease 0.5s;
   -webkit-animation: fadeIn ease 0.5s;
   -moz-animation: fadeIn ease 0.5s;
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
+
+  transition: all 0.25 ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+}
+
+body.dark-mode {
+  background-color: #333333;
+  color: white;
+}
+
+a:link.dark-mode {
+  color: #FFFF11;
+  transition: color 0.5 ease;
+}
+
+a:visited.dark-mode {
+  color: #AAE574;
+  transition: color 0.5 ease;
+}
+
+a:active.dark-mode {
+  color: #11FFFF;
+  transition: color 0.5 ease;
 }
 
 div.header {
@@ -18,7 +45,8 @@ div.header {
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 36px;
-  margin-block-end: 10px;
+  margin: 0px 0px 10px 0px;
+  display: inline-block;
 }
 
 h5 {
@@ -64,6 +92,17 @@ p {
 
 li {
   text-align: justify;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #8000FF;
 }
 
 span.google-blue {

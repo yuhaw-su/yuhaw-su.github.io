@@ -9,11 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script>
+      // Function to change webpage background color
+      function toggleDarkMode() {
+        var darkModeClass = "dark-mode";
+        document.body.classList.toggle(darkModeClass);
+        var links = document.getElementsByTagName("a")
+        for (var i = 0; i < links.length; i++) {
+          links[i].classList.toggle(darkModeClass);
+        }
+      }
+    </script>
   </head>
 
   <body>
     <div class="header">
-      <h1>Yu Haw Su</h1>
+      <h1>Yu Haw</h1>
+      <button class="last-name" onclick="toggleDarkMode()">Su</button>
       <h5><i>Richard works, too :)</i></h5>
     </div> 
     <div class="main-content">
@@ -28,7 +40,7 @@
      --><span class="google-blue"   >g</span><!--
      --><span class="google-green"  >l</span><!--
      --><span class="google-red"    >e</span>
-        in San Francisco where I am currently working to make Google Maps the best experience possible 
+        currently based in San Francisco where I work to make Google Maps the best experience possible 
         for iOS users. My key contributions all revolve around serving the user - here are a few:
       </p>
       <ul>
