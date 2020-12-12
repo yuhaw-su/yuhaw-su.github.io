@@ -1,66 +1,30 @@
 html * {
-  font-family: 'Aleo', serif;
-  letter-spacing: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.05em;
   color: #333333;
+
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
 }
 
 div.header {
   text-align: center;
-  padding: 70px 0px;
+  padding: 120px 0px 20px 0px;
 }
 
-div.header a {
-  text-decoration: none;
+h1 {
+  font-family: 'Quicksand', sans-serif;
   font-size: 36px;
+  margin-block-end: 10px;
 }
 
-ul.navbar {
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li.navbar-item {
-  display: inline;
-}
-
-li.navbar-item a {
-  text-align: center;
-  padding: 14px 30px;
-  text-decoration: none;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-li.selected-tab a {
-  color: #888888;
-}
-
-li.navbar-item a:hover {
-  color: #888888;
-}
-
-div.main-content {
-  padding: 60px 18%;
-}
-
-@media (min-width: 700px) {
-  img.self {
-    width: 30%;
-    height: auto;
-    float: left;
-    padding-right: 3%;
-  }
-}
-
-@media (max-width: 699px) {
-  img.self {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  } 
+h5 {
+  padding-bottom: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 div.connect-row {
@@ -93,6 +57,94 @@ img.homepage {
   width: 70%;
 }
 
-p.coming-soon {
-  text-align: center;
+p {
+  text-align: justify;
+  /*font-size: 24px;*/
+}
+
+li {
+  text-align: justify;
+}
+
+span.google-blue {
+  font-family: 'Jost', sans-serif;
+  color: #4285F4;
+}
+
+span.google-red {
+  font-family: 'Jost', sans-serif;
+  color: #DB4437;
+}
+
+span.google-yellow {
+  font-family: 'Jost', sans-serif;
+  color: #F4B400;
+}
+
+span.google-green {
+  font-family: 'Jost', sans-serif;
+  color: #0F9D58;
+}
+
+b {
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media (min-width: 800px) {
+  img.self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+  }
+}
+
+@media (max-width: 799px) {
+  img.self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1500px) {
+  div.main-content {
+    padding: 0px 28% 40px 28%;
+  }
+}
+
+@media (max-width: 1499px) {
+  div.main-content {
+    padding: 0px 18% 40px 18%;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
